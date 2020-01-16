@@ -21,7 +21,7 @@
 			<td>{{ $p->id }}</td>
 		<td>{{ $p->nama_masakan }}</td>
 			<td>{{ $p->harga }}</td>
-			<td><img src="{{ asset($p->jumlah.'.jpg') }}" alt=""></td>
+			<td><img src="{{ asset($p->jumlah.'.jpg') }}" alt="" width="100px"></td>
 				<td>
 				<form action="/tambah1" method="post">
                                 @csrf
