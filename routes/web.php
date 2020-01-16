@@ -13,8 +13,4 @@
 
 Route::get('/','MasakanController@index');
 
-Route::get('/a','OrderController@index');
-
-Route::post('tambah1', 'MasakanController@simpan');
-
-Route::post('tambah2', 'MasakanController@update');
+Route::post('', 'MasakanController@simpan');

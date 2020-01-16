@@ -23,7 +23,7 @@
 			<td>{{ $p->harga }}</td>
 			<td><img src="{{ asset($p->jumlah.'.jpg') }}" alt="" width="100px"></td>
 				<td>
-				<form action="/tambah1" method="post">
+				<form action="/" method="post">
                                 @csrf
 								<input type="hidden" name="id_masakan" id="id_masakan" value="{{ $p->id }}">
 								<input type="hidden" name="jumlah" id="jumlah" value="1">
